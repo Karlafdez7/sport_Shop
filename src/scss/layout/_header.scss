@@ -1,5 +1,75 @@
-.page__header {
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+* {
+  font-size: 62.5%;
+}
+
+:root {
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Slab', serif;
+}
+
+.menu {
+  background-color:#f26002 ;
+  padding: 0.8rem;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
+
+}
+
+.hero {
+  
+  .hero_img {
+    width: 100%;
+    height: 680px;
+    background-image: url(../images/cover.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -7.5rem;
+  }
+  // .hero_img {
+  // position: relative;
+  // top: -3rem;
+  // }
+  .hero_title {
+    font-family:'Roboto Slab';
+    font-weight: bold;
+    font-size: 2rem;
+    color: white;
+    position: relative;
+    top: -19rem;
+    text-align: center;
+    margin: 0 1rem;
+    text-shadow: 0 2px 3px black;
+
+  }
+
+  .hero_contents {
+    font-family: 'Roboto';
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -18rem;
+
+  }
+
+  .hero_buttom {
+    color: #f26002;
+    font-size: 2rem;
+    background-color: white;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    top: -17rem;
+    left: 8rem;
+    padding: 0.25rem 1rem 0.5rem 1rem;
+    border-radius: 50%;
+
+
+  }
+
+
+
 }
