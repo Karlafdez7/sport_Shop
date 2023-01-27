@@ -289,6 +289,9 @@ table {
     line-height: 1.88;
     letter-spacing: normal;
     text-decoration: none; }
+    .footer .footer_navegator_list .footer_navegator_list_item {
+      color: white;
+      text-decoration: none; }
   .footer .footer_navegator_copy {
     font-family: 'Roboto', sans-serif;
     padding-bottom: 2rem;
@@ -297,8 +300,7 @@ table {
     font-stretch: normal;
     font-style: normal;
     line-height: 1.88;
-    letter-spacing: normal;
-    text-decoration: none; }
+    letter-spacing: normal; }
 
 .main__list {
   padding-left: 2rem;
