@@ -1,5 +1,6 @@
 .section_1 {
     margin: 0rem 1.5rem 4rem 1.5rem;
+
     
 
     .section_1_label {
@@ -34,4 +35,46 @@
         position: relative;
         top: 1rem;
     }
+}
+
+.section_2 {
+    background-color: #f2f2f2;
+    text-align: center;
+    border: solid 3rem #f2f2f2;
+
+    .section_2_title {
+        font-family: 'Roboto Slab', serif;
+        font-size: 1.1rem;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: center;
+    }
+
+    .section_2_subtitle {
+        font-size: 1rem;
+        margin: 1rem 0;
+        font-family: 'Roboto Slab', serif;
+        font-weight: bold;
+    }
+
+    .section_2_contents {
+        font-size: 0.9rem;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.67;
+        letter-spacing: normal;
+        margin-bottom: 2rem;
+    }
+
+    .section_2_buttom {
+        background-color:#f26002;
+        padding: 0.5rem 1rem;
+        border-radius: 5rem;
+        color: white;
+        text-decoration: none;
+    }
+    
 }
