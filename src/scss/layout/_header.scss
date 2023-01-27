@@ -24,12 +24,14 @@
 
 .hero {
   width: 100%;
+  height: 440px;
   
   .hero_img {
     width: 100%;
-    height: 528.8px;
+    height: 530px;
     background-image: url(../images/cover.jpeg);
-    background-size: 320px 528.8px;
+    background-size: 500px 1000px;
+    background-position: 40%;
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
@@ -37,7 +39,7 @@
   }
 
   .hero_title {
-    font-family:'Roboto Slab';
+    font-family:'Roboto Slab', serif;
     font-weight: bold;
     font-size: 2rem;
     color: white;
@@ -50,7 +52,7 @@
   }
 
   .hero_contents {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     text-align: center;
     color: white;

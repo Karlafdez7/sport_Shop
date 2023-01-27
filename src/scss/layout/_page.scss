@@ -1,0 +1,37 @@
+.section_1 {
+    margin: 0rem 1.5rem 4rem 1.5rem;
+    
+
+    .section_1_label {
+        font-family: 'Roboto', sans-serif;
+        font-size: 0.8rem;
+        color: #f26002;
+        margin-bottom: 0.5rem;
+    }
+
+    .section_1_title {
+        font-family: 'Roboto Slab', serif;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+    .section_1_contents {
+        font-family: 'Roboto', sans-serif;
+        color: #4a4a4a;
+        font-size: 1rem;
+        margin-top: 1rem;
+        line-height: 1.67;
+        letter-spacing: normal;
+    }
+
+    .section_1_buttom {
+        font-size: 1rem;
+        text-decoration: none;
+        color: #f26002;
+        padding: 0.25rem 1.5rem;
+        border: solid 2px #f26002;
+        border-radius: 5rem;
+        position: relative;
+        top: 1rem;
+    }
+}
