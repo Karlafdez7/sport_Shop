@@ -4,7 +4,7 @@
     color: white;
     text-align: center;
 
-
+    
     .footer_buttom {
         background-color: white;
         padding: 1rem 0.9rem 0.5rem;
@@ -21,39 +21,59 @@
         }       
     }
 
-    .footer_navegator_list {
-        font-family: 'Roboto', sans-serif;
-        font-size: 0.8rem;
-        margin: 1rem 0 1rem 0;
-        font-weight: normal;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1.88;
-        letter-spacing: normal;
-        text-decoration: none;
+    .footer_navegator {
 
-            .footer_navegator_list_item {
-                color: white;
+        @media (min-width:768px) {
+            display: flex;
+            justify-content:space-evenly;
+            align-items: center;
+        }
+
+
+        .footer_navegator_list {
+
+            @media (min-width:768px) {
+                order: 1;                
+            }
+        
+
+            .footer_navegator_list_section {
+                font-family: 'Roboto', sans-serif;
+                font-size: 0.8rem;
+                margin: 1rem 0 1rem 0;
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.88;
+                letter-spacing: normal;
                 text-decoration: none;
 
-                }
+
+                .footer_navegator_list_section_item {
+                        color: white;
+                        text-decoration: none;
+                }        
+            }    
+        }
+            
+        .footer_navegator_list_copy {
+            font-family: 'Roboto', sans-serif;
+            padding-bottom: 2rem;
+            font-size: 0.8rem;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.88;
+            letter-spacing: normal;
+
+            @media (min-width:768px) {
+                order: 0;
+            }
+
+        }
+
+         
     }
-    
-    .footer_navegator_copy {
-        font-family: 'Roboto', sans-serif;
-        padding-bottom: 2rem;
-        font-size: 0.8rem;
-        font-weight: normal;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1.88;
-        letter-spacing: normal;
-          
-
-
-    }
-
-
 }
 
 

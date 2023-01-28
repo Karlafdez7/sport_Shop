@@ -1,19 +1,25 @@
 .section_1 {
     margin: 0rem 1.5rem 4rem 1.5rem;
 
-    
-
     .section_1_label {
         font-family: 'Roboto', sans-serif;
         font-size: 0.8rem;
         color: #f26002;
         margin-bottom: 0.5rem;
+
+        @media (min-width:768px) {
+            font-size: 1rem;
+        }
     }
 
     .section_1_title {
         font-family: 'Roboto Slab', serif;
         font-size: 1.2rem;
         font-weight: bold;
+
+        @media (min-width:768px) {
+            font-size: 2rem;
+        }
     }
 
     .section_1_contents {
@@ -23,6 +29,11 @@
         margin-top: 1rem;
         line-height: 1.67;
         letter-spacing: normal;
+
+        @media (min-width:768px) {
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+        }
     }
 
     .section_1_buttom {
@@ -34,6 +45,10 @@
         border-radius: 5rem;
         position: relative;
         top: 1rem;
+
+        @media (min-width:768px) {
+            font-size: 1.4rem;
+        }
     }
 }
 
@@ -41,6 +56,7 @@
     background-color: #f2f2f2;
     text-align: center;
     border: solid 3rem #f2f2f2;
+       
 
     .section_2_title {
         font-family: 'Roboto Slab', serif;
@@ -52,33 +68,73 @@
         letter-spacing: normal;
         text-align: center;
         margin: 0 1.5rem 2rem 1.5rem;
+
+        @media (min-width:768px) {
+            font-size: 1.6rem;
+        }
+
+
+        
     }
 
+    .section_2_article {
+        
+        @media (min-width:768px) {
+            margin-bottom: 0.5rem;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: [row1]60% [row2]40%;
+            grid-template-areas: 
+            "section_2_article_subtitle section_2_article_subtitle section_2_article_subtitle" 
 
-    .section_2_subtitle {
-        font-size: 1rem;
-        margin: 0.5rem 0;
-        font-family: 'Roboto Slab', serif;
-        font-weight: bold;
-    }
+            "section_2_article_contents section_2_article_contents section_2_article_contents";
 
-    .section_2_contents {
-        font-size: 0.9rem;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1.67;
-        letter-spacing: normal;
-        margin: 0rem 0 2rem 0;
-    
-    }
+        }
 
+  
+            
+        .section_2_article_subtitle {
+            font-size: 1rem;
+            margin: 0.5rem 0;
+            font-family: 'Roboto Slab', serif;
+            font-weight: bold;
+
+            @media (min-width:768px) {
+                font-size: 1.4rem;
+                grid-area: section_2_article_subtitle;
+            
+            }
+        }
+                
+        .section_2_article_contents {
+            font-size: 0.9rem;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.67;
+            letter-spacing: normal;
+            margin: 0rem 0 2rem 0;
+
+
+            @media (min-width:768px) {
+                font-size: 1.2rem;
+                grid-area: section_2_article_contents;
+            }
+        }
+            
+    }            
+                                    
     .section_2_buttom {
         font-size: 1rem;
-        background-color:#f26002;
+        background-color: #f26002;
         padding: 0.5rem 2rem;
         border-radius: 5rem;
         color: white;
         text-decoration: none;
+
+        @media (min-width:768px) {
+            font-size: 1.4rem;
+        }
+            
     }
-    
+
 }

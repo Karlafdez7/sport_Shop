@@ -15,70 +15,96 @@
     top: 0;
     z-index: 1;
 
+
     .header_navegator_menu {
     background-color:#f26002 ;
     padding: 0.8rem;
-}
-}
 
+    @media (min-width:768px) {
+      padding: 1rem;
+          
+    }
 
+    }
+    
+  }
 
+  .header_hero {
+      width: 100%;
+      height: 440px;
   
-
-}
-
-.hero {
-  width: 100%;
-  height: 440px;
+ 
+    .header_hero_img {
+        width: 100%;
+        height: 530px;
+        background-image: url(../images/cover.jpeg);
+        background-size: 560px 1000px;
+        background-position: 40%;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+        top: -7.5rem;
   
-  .hero_img {
-    width: 100%;
-    height: 530px;
-    background-image: url(../images/cover.jpeg);
-    background-size: 560px 1000px;
-    background-position: 40%;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
-    top: -7.5rem;
-  }
+        @media (min-width:768px) {
+          background-size: 768px;
+        }
+      }
+      
+    .header_hero_contents {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      position: relative;
+      top: -20rem;
 
-  .hero_title {
-    font-family:'Roboto Slab', serif;
-    font-weight: bold;
-    font-size: 2rem;
-    color: white;
-    position: relative;
-    top: -19rem;
-    text-align: center;
-    margin: 0 1rem;
-    text-shadow: 0 2px 3px black;
+      @media (min-width:768px) {
+        top: -25rem;
+      }
 
-  }
+      .header_hero_contents_title {
+          font-family: 'Roboto Slab', serif;
+          font-weight: bold;
+          font-size: 2rem;
+          color: white;
+          margin-bottom: 1rem;
+          text-shadow: 0 2px 3px black;
+      
+          @media (min-width:768px) {
+            font-size: 4rem;
 
-  .hero_contents {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
-    text-align: center;
-    color: white;
-    position: relative;
-    top: -18rem;
+          }
+      
+        }
+      
+        .header_hero_contents_p {
+          font-family: 'Roboto', sans-serif;
+          font-size: 1rem;
+          margin-bottom: 1rem;
+          color: white;
+      
+          @media (min-width:768px) {
+            font-size: 1.2rem;
+            margin: 0rem 15rem 1rem;
 
-  }
+          }
+      
+        }
+      
+        .header_hero_contents_buttom {
+          color: #f26002;
+          font-size: 2rem;
+          background-color: white;
+          text-decoration: none;
+          padding: 0rem 0.7rem 0.5rem 0.7rem;
+          border-radius: 50%;
 
-  .hero_buttom {
-    color: #f26002;
-    font-size: 2rem;
-    background-color: white;
-    text-decoration: none;
-    text-align: center;
-    position: relative;
-    top: -17rem;
-    left: 8rem;
-    padding: 0rem 0.7rem 0.5rem 0.7rem;
-    border-radius: 50%;
+      
+        }
 
-  }
-
+    } 
+    
+}
 
 }
+
