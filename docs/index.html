@@ -1,68 +1,151 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="./assets/css/main.css" />
-    <link rel="icon" href="./assets/images/favicon.png" />
-  </head>
 
-  <body>
-    <div class="page">
-      <header class="page__header">
-        <img src="./assets/images/logo-adalab.png" alt="Adalab">
-        <h1>Bienvenidos a Adalab</h1>
-      </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="../Fonts/Roboto/">
+  <link rel="stylesheet" href="../Fonts/Roboto_Slab/static/">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/css/main.css" />
+  <link rel="icon" href="./assets/images/favicon.png" />
+  <title>Módulo 1 - Karla</title>
 
-      <main class="page__main">
-        <h2>Este es el starter kit de Adalab</h2>
-        <p>Lo usamos para aprender:</p>
-        <ul class="main__list">
-          <li>Sass</li>
-          <li>HTML partials</li>
-          <li>Gulp</li>
-          <li>y muchas cosas más</li>
-        </ul>
-        <p>Si quieres saber cúales son las rutas correctas para:</p>
-        <ul class="main__list">
-          <li>
-            una <code class="code">&lt;img /&gt;</code> mira el fichero
-            <code class="code">./src/html/partials/header.html</code>.
-          </li>
-          <li>
-            y para un <code class="code">background-image</code> mira el fichero
-            <code class="code">./src/html/scss/layout/_page.scss</code>.
-          </li>
-        </ul>
-        <p>
-          Si quieres saber cómo usar un partial HTML dentro de otro partial, busca en la carperta
-          <code class="code">./src/html/index.html</code> y
-          <code class="code">./src/html/partials/main.html</code>, y verás cómo estamos creando estos
-          enlaces:
-        </p>
-        <ul class="main__list">
-          <li>
-            <a class="link__adalab" href="https://adalab.es">Adalab</a>
+</head>
 
-          </li>
-          <li>
-            <a class="" href="./more-info.html">Más info del starter kit</a>
+<body>
 
-          </li>
-        </ul>
-      </main>
+  <header class="header" id="header">
 
-      <footer class="page__footer">
-        <small>
-          &copy; Todos los derechos reservados
-          <a class="link__adalab" href="https://adalab.es">Adalab</a>
+    <nav class="header--navegator">
+      <a href="https://adalab.es/curso-de-programacion-para-mujeres-conviertete-en-programadora-web/?utm_term=adalab&utm_campaign=Lanzamiento+curso+Data&utm_source=adwords&utm_medium=ppc&hsa_acc=5177828897&hsa_cam=17724279488&hsa_grp=138248780389&hsa_ad=609701106850&hsa_src=g&hsa_tgt=aud-1702000491047:kwd-320586140105&hsa_kw=adalab&hsa_mt=p&hsa_net=adwords&hsa_ver=3&gclid=Cj0KCQiAic6eBhCoARIsANlox87_Q4JoWTtEen4-yrkH977DJJ_EshqUsH-Q4PEpVsQNluEG6zKXHfEaAqzTEALw_wcB"
+        target="_blank">
+        <img class="header--navegator_menu" src="./assets/images/ico-menu.svg" alt="icon menu">
+      </a>
+    </nav>
 
-        </small>
-      </footer>
-
+    <div class="header--hero">
+      <div class="header--hero_img"> </div>
+      <div class="header--hero_contents">
+        <h1 class="header--hero_contents_title"> HASTA UN 50% DE DESCUENTO</h1>
+        <p class="header--hero_contents_p"> Ya están aquí las ofertas de fin de temporada</p>
+        <a class="header--hero_contents_buttom" href="#new_year">⌄</a>
+      </div>
     </div>
-    <script src="./assets/js/main.js"></script>
-  </body>
+
+  </header>
+  <main class="page--main">
+
+      <section class="section--1">
+
+          <p class="section--1_label"> Los sentimientos nos inspiran</p>
+          <h2 class="section--1_title"> Conecta Contigo</h2>
+          <p class="section--1_contents"> Esto es una nueva celebración de todo lo que nos mueve. Del poder de elegir y de
+              la libertad de ser.
+              Rendimos homenaje al hermoso caos del movimiento y a la plena consciencia que tan bien nos hacen sentir</p>
+
+          <a class="section--1_buttom"
+              href="https://adalab.es/curso-de-programacion-para-mujeres-conviertete-en-programadora-web/?utm_term=adalab&utm_campaign=Lanzamiento+curso+Data&utm_source=adwords&utm_medium=ppc&hsa_acc=5177828897&hsa_cam=17724279488&hsa_grp=138248780389&hsa_ad=609701106850&hsa_src=g&hsa_tgt=aud-1702000491047:kwd-320586140105&hsa_kw=adalab&hsa_mt=p&hsa_net=adwords&hsa_ver=3&gclid=Cj0KCQiAic6eBhCoARIsANlox87_Q4JoWTtEen4-yrkH977DJJ_EshqUsH-Q4PEpVsQNluEG6zKXHfEaAqzTEALw_wcB"
+              target="_blank">
+              Comprar</a>
+
+      </section>
+
+      <section class="section--2">
+
+          <h3 class="section--2_title" id="new_year"> Año nuevo, movimientos nuevos</h3>
+
+          <div class="section--2_article">
+              <article class="section--2_article">
+                  <h4 class="section--2_article_subtitle"> Entrenamientos</h4>
+                  <p class="section--2_article_contents"> Sesiones de running y entrenamientos.</p>
+
+              </article>
+
+              <article class="section--2_article">
+                  <h4 class="section--2_article_subtitle"> Cualquier nivel</h4>
+                  <p class="section--2_article_contents">Entrenamiento para cada nivel.</p>
+
+              </article>
+
+              <article class="section--2_article">
+                  <h4 class="section--2_article_subtitle"> Exclusividad</h4>
+                  <p class="section--2_article_contents"> Productos para miembros premium.</p>
+
+              </article>
+
+          </div>
+
+          <a class="section--2_buttom"
+              href="https://adalab.es/curso-de-programacion-para-mujeres-conviertete-en-programadora-web/?utm_term=adalab&utm_campaign=Lanzamiento+curso+Data&utm_source=adwords&utm_medium=ppc&hsa_acc=5177828897&hsa_cam=17724279488&hsa_grp=138248780389&hsa_ad=609701106850&hsa_src=g&hsa_tgt=aud-1702000491047:kwd-320586140105&hsa_kw=adalab&hsa_mt=p&hsa_net=adwords&hsa_ver=3&gclid=Cj0KCQiAic6eBhCoARIsANlox87_Q4JoWTtEen4-yrkH977DJJ_EshqUsH-Q4PEpVsQNluEG6zKXHfEaAqzTEALw_wcB"
+              target="_blank">
+              Empezar ahora</a>
+
+
+      </section>
+
+      <main>
+  <footer class="footer">
+
+    <a class="footer--buttom" href="#header"><img class="footer_buttom_arrow" src="./assets/images/ico-arrow.svg"
+        alt=""></a>
+
+    <div class="footer--navegator">
+      <nav class="footer--navegator_list">
+
+        <ul class="footer--navegator_list_section">
+          <li><a
+              href="https://adalab.es/curso-de-programacion-para-mujeres-conviertete-en-programadora-web/?utm_term=adalab&utm_campaign=Lanzamiento+curso+Data&utm_source=adwords&utm_medium=ppc&hsa_acc=5177828897&hsa_cam=17724279488&hsa_grp=138248780389&hsa_ad=609701106850&hsa_src=g&hsa_tgt=aud-1702000491047:kwd-320586140105&hsa_kw=adalab&hsa_mt=p&hsa_net=adwords&hsa_ver=3&gclid=Cj0KCQiAic6eBhCoARIsANlox87_Q4JoWTtEen4-yrkH977DJJ_EshqUsH-Q4PEpVsQNluEG6zKXHfEaAqzTEALw_wcB"
+              target="_blank" class="footer--navegator_list_section_item">
+              ZAPATILLAS</a></li>
+
+          <li><a
+              href="https://adalab.es/curso-de-programacion-para-mujeres-conviertete-en-programadora-web/?utm_term=adalab&utm_campaign=Lanzamiento+curso+Data&utm_source=adwords&utm_medium=ppc&hsa_acc=5177828897&hsa_cam=17724279488&hsa_grp=138248780389&hsa_ad=609701106850&hsa_src=g&hsa_tgt=aud-1702000491047:kwd-320586140105&hsa_kw=adalab&hsa_mt=p&hsa_net=adwords&hsa_ver=3&gclid=Cj0KCQiAic6eBhCoARIsANlox87_Q4JoWTtEen4-yrkH977DJJ_EshqUsH-Q4PEpVsQNluEG6zKXHfEaAqzTEALw_wcB"
+              target="_blank" class="footer--navegator_list_section_item">ROPA
+            </a></li>
+          <li><a
+              href="https://adalab.es/curso-de-programacion-para-mujeres-conviertete-en-programadora-web/?utm_term=adalab&utm_campaign=Lanzamiento+curso+Data&utm_source=adwords&utm_medium=ppc&hsa_acc=5177828897&hsa_cam=17724279488&hsa_grp=138248780389&hsa_ad=609701106850&hsa_src=g&hsa_tgt=aud-1702000491047:kwd-320586140105&hsa_kw=adalab&hsa_mt=p&hsa_net=adwords&hsa_ver=3&gclid=Cj0KCQiAic6eBhCoARIsANlox87_Q4JoWTtEen4-yrkH977DJJ_EshqUsH-Q4PEpVsQNluEG6zKXHfEaAqzTEALw_wcB"
+              target="_blank" class="footer--navegator_list_section_item">NIÑO/A
+            </a></li>
+          <li><a
+              href="https://adalab.es/curso-de-programacion-para-mujeres-conviertete-en-programadora-web/?utm_term=adalab&utm_campaign=Lanzamiento+curso+Data&utm_source=adwords&utm_medium=ppc&hsa_acc=5177828897&hsa_cam=17724279488&hsa_grp=138248780389&hsa_ad=609701106850&hsa_src=g&hsa_tgt=aud-1702000491047:kwd-320586140105&hsa_kw=adalab&hsa_mt=p&hsa_net=adwords&hsa_ver=3&gclid=Cj0KCQiAic6eBhCoARIsANlox87_Q4JoWTtEen4-yrkH977DJJ_EshqUsH-Q4PEpVsQNluEG6zKXHfEaAqzTEALw_wcB"
+              target="_blank" class="footer--navegator_list_section_item">
+              DESTACADOS</a></li>
+          <li><a
+              href="https://adalab.es/curso-de-programacion-para-mujeres-conviertete-en-programadora-web/?utm_term=adalab&utm_campaign=Lanzamiento+curso+Data&utm_source=adwords&utm_medium=ppc&hsa_acc=5177828897&hsa_cam=17724279488&hsa_grp=138248780389&hsa_ad=609701106850&hsa_src=g&hsa_tgt=aud-1702000491047:kwd-320586140105&hsa_kw=adalab&hsa_mt=p&hsa_net=adwords&hsa_ver=3&gclid=Cj0KCQiAic6eBhCoARIsANlox87_Q4JoWTtEen4-yrkH977DJJ_EshqUsH-Q4PEpVsQNluEG6zKXHfEaAqzTEALw_wcB"
+              target="_blank" class="footer--navegator_list_section_item">
+              TIPS</a></li>
+        </ul>
+
+      </nav>
+
+      <nav class="footer--navegator_list">
+        <ul class="footer--navegator_list_section">
+          <li><a
+              href="https://adalab.es/curso-de-programacion-para-mujeres-conviertete-en-programadora-web/?utm_term=adalab&utm_campaign=Lanzamiento+curso+Data&utm_source=adwords&utm_medium=ppc&hsa_acc=5177828897&hsa_cam=17724279488&hsa_grp=138248780389&hsa_ad=609701106850&hsa_src=g&hsa_tgt=aud-1702000491047:kwd-320586140105&hsa_kw=adalab&hsa_mt=p&hsa_net=adwords&hsa_ver=3&gclid=Cj0KCQiAic6eBhCoARIsANlox87_Q4JoWTtEen4-yrkH977DJJ_EshqUsH-Q4PEpVsQNluEG6zKXHfEaAqzTEALw_wcB"
+              target="_blank" class="footer--navegator_list_section_item">
+              TWITTER</a></li>
+          <li><a
+              href="https://adalab.es/curso-de-programacion-para-mujeres-conviertete-en-programadora-web/?utm_term=adalab&utm_campaign=Lanzamiento+curso+Data&utm_source=adwords&utm_medium=ppc&hsa_acc=5177828897&hsa_cam=17724279488&hsa_grp=138248780389&hsa_ad=609701106850&hsa_src=g&hsa_tgt=aud-1702000491047:kwd-320586140105&hsa_kw=adalab&hsa_mt=p&hsa_net=adwords&hsa_ver=3&gclid=Cj0KCQiAic6eBhCoARIsANlox87_Q4JoWTtEen4-yrkH977DJJ_EshqUsH-Q4PEpVsQNluEG6zKXHfEaAqzTEALw_wcB"
+              target="_blank" class="footer--navegator_list_section_item">
+              INSTAGRAM</a></li>
+          <li><a
+              href="https://adalab.es/curso-de-programacion-para-mujeres-conviertete-en-programadora-web/?utm_term=adalab&utm_campaign=Lanzamiento+curso+Data&utm_source=adwords&utm_medium=ppc&hsa_acc=5177828897&hsa_cam=17724279488&hsa_grp=138248780389&hsa_ad=609701106850&hsa_src=g&hsa_tgt=aud-1702000491047:kwd-320586140105&hsa_kw=adalab&hsa_mt=p&hsa_net=adwords&hsa_ver=3&gclid=Cj0KCQiAic6eBhCoARIsANlox87_Q4JoWTtEen4-yrkH977DJJ_EshqUsH-Q4PEpVsQNluEG6zKXHfEaAqzTEALw_wcB"
+              target="_blank" class="footer--navegator_list_section_item">
+              YOUTUBE</a></li>
+        </ul>
+
+      </nav>
+
+      <div class="footer--navegator_list_copy">
+        <span> ©2023</span>
+        <p>we🧡run</p>
+
+      </div>
+    </div>
+  </footer>
+  </div>
+
+</body>
+
 </html>
