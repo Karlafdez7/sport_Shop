@@ -12,9 +12,9 @@
 
     
     &_label {
-        font-family: 'Roboto';
+        font-family: $font-roboto;
         font-size: 0.8rem;
-        color: #f26002;
+        color: $color-orange;
         margin-bottom: 0.5rem;
 
         @media (min-width:768px) {
@@ -24,7 +24,7 @@
     }
 
     &_title {
-        font-family: 'Roboto Slab';
+        font-family: $font-robotoslab;
         font-size: 1.2rem;
         font-weight: bold;
 
@@ -34,8 +34,8 @@
     }
 
     &_contents {
-        font-family: 'Roboto';
-        color: #4a4a4a;
+        font-family: $font-roboto;
+        color: $color-grey;
         font-size: 1rem;
         margin-top: 1rem;
         line-height: 1.67;
@@ -52,12 +52,12 @@
     }
 
     &_buttom {
-        font-family: 'Roboto';
+        font-family: $font-roboto;
         font-size: 1rem;
         text-decoration: none;
-        color: #f26002;
+        color: $color-orange;
         padding: 0.25rem 1.5rem;
-        border: solid 2px #f26002;
+        border: solid 2px $color-orange;
         border-radius: 5rem;
         position: relative;
         top: 1rem;
@@ -78,7 +78,7 @@
        
 
     &_title {
-        font-family: 'Roboto Slab', sans-serif;
+        font-family: $font-robotoslab, sans-serif;
         font-size: 1.4rem;
         font-weight: bold;
         font-stretch: normal;
@@ -117,7 +117,7 @@
         &_subtitle {
             font-size: 1rem;
             margin: 0.5rem 1rem;
-            font-family: 'Roboto Slab';
+            font-family: $font-robotoslab;
             font-weight: bold;
 
             @media (min-width:768px) {
@@ -133,7 +133,7 @@
         }
                 
         &_contents {
-            font-family: 'Roboto';
+            font-family: $font-roboto;
             font-size: 0.9rem;
             font-stretch: normal;
             font-style: normal;
@@ -156,9 +156,9 @@
     }            
                                     
     &_buttom {
-        font-family: 'Roboto';
+        font-family: $font-roboto;
         font-size: 1rem;
-        background-color: #f26002;
+        background-color: $color-orange;
         padding: 0.5rem 2rem;
         border-radius: 5rem;
         color: white;

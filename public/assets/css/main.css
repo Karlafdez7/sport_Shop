@@ -127,6 +127,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+* {
+  font-size: 62.5%; }
+
 .code {
   font-size: 16px;
   background: #d8d8d8;
@@ -151,7 +154,7 @@ table {
     .section--1 {
       margin-left: 12rem; } }
   .section--1_label {
-    font-family: 'Roboto';
+    font-family: "Roboto";
     font-size: 0.8rem;
     color: #f26002;
     margin-bottom: 0.5rem; }
@@ -160,14 +163,14 @@ table {
         font-size: 1.2rem;
         margin-bottom: 1rem; } }
   .section--1_title {
-    font-family: 'Roboto Slab';
+    font-family: "Roboto Slab";
     font-size: 1.2rem;
     font-weight: bold; }
     @media (min-width: 768px) {
       .section--1_title {
         font-size: 2rem; } }
   .section--1_contents {
-    font-family: 'Roboto';
+    font-family: "Roboto";
     color: #4a4a4a;
     font-size: 1rem;
     margin-top: 1rem;
@@ -181,7 +184,7 @@ table {
       .section--1_contents {
         padding-right: 15rem; } }
   .section--1_buttom {
-    font-family: 'Roboto';
+    font-family: "Roboto";
     font-size: 1rem;
     text-decoration: none;
     color: #f26002;
@@ -200,7 +203,7 @@ table {
   border: solid 3rem #f2f2f2;
   padding-bottom: 2rem; }
   .section--2_title {
-    font-family: 'Roboto Slab', sans-serif;
+    font-family: "Roboto Slab", sans-serif;
     font-size: 1.4rem;
     font-weight: bold;
     font-stretch: normal;
@@ -225,7 +228,7 @@ table {
   .section--2_article_subtitle {
     font-size: 1rem;
     margin: 0.5rem 1rem;
-    font-family: 'Roboto Slab';
+    font-family: "Roboto Slab";
     font-weight: bold; }
     @media (min-width: 768px) {
       .section--2_article_subtitle {
@@ -236,7 +239,7 @@ table {
         font-size: 1.4rem;
         margin-bottom: 4rem; } }
   .section--2_article_contents {
-    font-family: 'Roboto';
+    font-family: "Roboto";
     font-size: 0.9rem;
     font-stretch: normal;
     font-style: normal;
@@ -252,7 +255,7 @@ table {
       .section--2_article_contents {
         font-size: 1.2rem; } }
   .section--2_buttom {
-    font-family: 'Roboto';
+    font-family: "Roboto";
     font-size: 1rem;
     background-color: #f26002;
     padding: 0.5rem 2rem;
@@ -262,13 +265,6 @@ table {
     @media (min-width: 768px) {
       .section--2_buttom {
         font-size: 1.3rem; } }
-
-* {
-  font-size: 62.5%; }
-
-:root {
-  font-family: 'Roboto', sans-serif;
-  font-family: 'Roboto Slab', serif; }
 
 .header {
   width: 100vw; }
@@ -326,12 +322,12 @@ table {
         .header--hero_contents {
           top: -45rem; } }
       .header--hero_contents_title {
-        font-family: 'Roboto Slab';
+        font-family: "Roboto Slab";
         font-weight: bold;
         font-size: 1.8rem;
-        color: white;
+        color: #ffffff;
         margin-bottom: 1rem;
-        text-shadow: 0 2px 3px black; }
+        text-shadow: 0 2px 3px #000000; }
         @media (min-width: 768px) {
           .header--hero_contents_title {
             font-size: 4rem;
@@ -341,11 +337,11 @@ table {
             margin-bottom: 1rem;
             font-size: 5rem; } }
       .header--hero_contents_p {
-        font-family: 'Roboto';
+        font-family: "Roboto";
         font-size: 1rem;
         font-weight: lighter;
         margin-bottom: 1rem;
-        color: white; }
+        color: #ffffff; }
         @media (min-width: 768px) {
           .header--hero_contents_p {
             font-size: 1.2rem;
@@ -357,7 +353,7 @@ table {
       .header--hero_contents_buttom {
         color: #f26002;
         font-size: 1.6rem;
-        background-color: white;
+        background-color: #ffffff;
         text-decoration: none;
         padding: 0rem 0.6rem 0.5rem 0.6rem;
         border-radius: 50%; }
@@ -369,7 +365,7 @@ table {
 .footer {
   width: 100%;
   background-color: #4a4a4a;
-  color: white;
+  color: #ffffff;
   text-align: center; }
   @media (min-width: 768px) {
     .footer {
@@ -378,7 +374,7 @@ table {
     .footer {
       padding: 4rem; } }
   .footer--buttom {
-    background-color: white;
+    background-color: #ffffff;
     padding: 1rem 0.9rem 0.5rem;
     border-radius: 50%;
     text-decoration: none;
@@ -406,7 +402,7 @@ table {
       text-align: start;
       order: 1; } }
   .footer--navegator_list_section {
-    font-family: 'Roboto';
+    font-family: "Roboto";
     font-size: 0.8rem;
     margin: 1rem 0 1rem 0;
     font-weight: normal;
@@ -416,14 +412,14 @@ table {
     letter-spacing: normal;
     text-decoration: none; }
     .footer--navegator_list_section_item {
-      color: white;
+      color: #ffffff;
       text-decoration: none; }
     @media (min-width: 768px) {
       .footer--navegator_list_section {
         line-height: 2.5;
         font-size: 1rem; } }
   .footer--navegator_list_copy {
-    font-family: 'Roboto';
+    font-family: "Roboto";
     padding-bottom: 2rem;
     font-size: 0.8rem;
     font-weight: normal;

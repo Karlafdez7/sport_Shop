@@ -1,11 +1,4 @@
-* {
-  font-size: 62.5%;
-}
 
-:root {
-  font-family: 'Roboto', sans-serif;
-  font-family: 'Roboto Slab', serif;
-}
 
 .header {
   width: 100vw;
@@ -15,9 +8,8 @@
     top: 0;
     z-index: 1;
 
-
     &_menu {
-    background-color:#f26002 ;
+    background-color: $color-orange;
     padding: 0.8rem;
 
       @media (min-width:768px) {
@@ -89,12 +81,12 @@
       }
 
       &_title {
-          font-family: 'Roboto Slab';
+          font-family: $font-robotoslab;
           font-weight: bold;
           font-size: 1.8rem;
-          color: white;
+          color: $color-white;
           margin-bottom: 1rem;
-          text-shadow: 0 2px 3px black;
+          text-shadow: 0 2px 3px $color-black;
       
           @media (min-width:768px) {
             font-size: 4rem;
@@ -110,11 +102,11 @@
         }
       
         &_p {
-          font-family: 'Roboto';
+          font-family: $font-roboto;
           font-size: 1rem;
           font-weight: lighter;
           margin-bottom: 1rem;
-          color: white;
+          color: $color-white;
       
           @media (min-width:768px) {
             font-size: 1.2rem;
@@ -130,9 +122,9 @@
         }
       
         &_buttom {
-          color: #f26002;
+          color: $color-orange;
           font-size: 1.6rem;
-          background-color: white;
+          background-color: $color-white;
           text-decoration: none;
           padding: 0rem 0.6rem 0.5rem 0.6rem;
           border-radius: 50%;
