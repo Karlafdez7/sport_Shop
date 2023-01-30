@@ -1,7 +1,8 @@
-.page__main {
+.page--main {
     width: 100vw;
 }
-.section_1 {
+
+.section--1 {
     width: 85%;
     margin: 0 0 4rem 3rem;
 
@@ -10,7 +11,7 @@
     }
 
     
-    .section_1_label {
+    &_label {
         font-family: 'Roboto';
         font-size: 0.8rem;
         color: #f26002;
@@ -22,7 +23,7 @@
         }
     }
 
-    .section_1_title {
+    &_title {
         font-family: 'Roboto Slab';
         font-size: 1.2rem;
         font-weight: bold;
@@ -32,7 +33,7 @@
         }
     }
 
-    .section_1_contents {
+    &_contents {
         font-family: 'Roboto';
         color: #4a4a4a;
         font-size: 1rem;
@@ -50,7 +51,7 @@
         }
     }
 
-    .section_1_buttom {
+    &_buttom {
         font-family: 'Roboto';
         font-size: 1rem;
         text-decoration: none;
@@ -69,14 +70,14 @@
 }
 
 
-.section_2 {
+.section--2 {
     background-color: #f2f2f2;
     text-align: center;
     border: solid 3rem #f2f2f2;
     padding-bottom: 2rem;
        
 
-    .section_2_title {
+    &_title {
         font-family: 'Roboto Slab', sans-serif;
         font-size: 1.4rem;
         font-weight: bold;
@@ -97,7 +98,7 @@
               
     }
 
-    .section_2_article {
+    &_article {
         
         @media (min-width:768px) {
             margin-bottom: 1rem;
@@ -113,7 +114,7 @@
 
   
             
-        .section_2_article_subtitle {
+        &_subtitle {
             font-size: 1rem;
             margin: 0.5rem 1rem;
             font-family: 'Roboto Slab';
@@ -131,7 +132,7 @@
             }
         }
                 
-        .section_2_article_contents {
+        &_contents {
             font-family: 'Roboto';
             font-size: 0.9rem;
             font-stretch: normal;
@@ -154,7 +155,7 @@
             
     }            
                                     
-    .section_2_buttom {
+    &_buttom {
         font-family: 'Roboto';
         font-size: 1rem;
         background-color: #f26002;

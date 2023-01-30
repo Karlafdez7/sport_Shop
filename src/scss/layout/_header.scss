@@ -10,13 +10,13 @@
 .header {
   width: 100vw;
 
-  .header_navegator {
+  &--navegator {
     position: sticky;
     top: 0;
     z-index: 1;
 
 
-    .header_navegator_menu {
+    &_menu {
     background-color:#f26002 ;
     padding: 0.8rem;
 
@@ -33,7 +33,7 @@
     
   }
 
-  .header_hero {
+  &--hero {
       width: 100%;
       height: 480px;
     
@@ -47,7 +47,7 @@
       }
 
  
-    .header_hero_img {
+    &_img {
         width: 100%;
         height: 100vh;
         background-image: url(../images/cover.jpeg);
@@ -71,7 +71,7 @@
         }
       }
       
-    .header_hero_contents {
+    &_contents {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -88,7 +88,7 @@
         top: -45rem;
       }
 
-      .header_hero_contents_title {
+      &_title {
           font-family: 'Roboto Slab';
           font-weight: bold;
           font-size: 1.8rem;
@@ -109,7 +109,7 @@
       
         }
       
-        .header_hero_contents_p {
+        &_p {
           font-family: 'Roboto';
           font-size: 1rem;
           font-weight: lighter;
@@ -129,7 +129,7 @@
       
         }
       
-        .header_hero_contents_buttom {
+        &_buttom {
           color: #f26002;
           font-size: 1.6rem;
           background-color: white;
