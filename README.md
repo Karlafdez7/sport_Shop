@@ -8,7 +8,7 @@ En este repositorio podrán encontrar mis primeros pasos en **Frond End**. Es un
 ## ¿Qué podéis encontrar en este repositorio?
 
 - Empezando por lo obvio: HTML y CSS.
-- Para hacerlo un poco más divertido: Saas y Branch.
+- Para hacerlo un poco más divertido: SASS y Branch.
 - Por si la emoción no fuera suficiente: He usado por primera vez el AWSK, que aunque al principio tte da miedo, luego ves la gran ayuda que es cuando quieres programar con calidad. Por ello encontrareis una manera de organización bien "partials"
 
 
