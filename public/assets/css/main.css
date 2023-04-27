@@ -269,8 +269,9 @@ table {
 .header {
   width: 100vw; }
   .header--navegator {
-    position: sticky;
+    position: fixed;
     top: 0;
+    left: 0;
     z-index: 1; }
     .header--navegator_menu {
       background-color: #f26002;
@@ -357,6 +358,49 @@ table {
         text-decoration: none;
         padding: 0rem 0.6rem 0.5rem 0.6rem;
         border-radius: 50%; }
+        .header--hero_contents_buttom:focus {
+          outline: 0; }
+        .header--hero_contents_buttom:before {
+          content: '';
+          display: block;
+          position: absolute;
+          width: 60px;
+          background: rgba(255, 255, 255, 0.5);
+          height: 100%;
+          left: 0;
+          top: 0;
+          opacity: .5;
+          filter: blur(30px);
+          transform: translateX(-100px) skewX(-15deg); }
+        .header--hero_contents_buttom:after {
+          content: '';
+          display: block;
+          position: absolute;
+          background: rgba(255, 255, 255, 0.2);
+          width: 30px;
+          height: 100%;
+          left: 30px;
+          top: 0;
+          opacity: 0;
+          filter: blur(5px);
+          transform: translateX(-100px) skewX(-15deg); }
+        .header--hero_contents_buttom:hover {
+          background: #edb168;
+          cursor: pointer; }
+          .header--hero_contents_buttom:hover:before {
+            transform: translateX(300px) skewX(-15deg);
+            opacity: 0.6;
+            transition: .7s; }
+          .header--hero_contents_buttom:hover:after {
+            transform: translateX(300px) skewX(-15deg);
+            opacity: 1;
+            transition: .7s; }
+        @media (min-width: 768px) {
+          .header--hero_contents_buttom {
+            top: -2.5rem; } }
+        @media (min-width: 1280px) {
+          .header--hero_contents_buttom {
+            top: -4.5rem; } }
         @media (min-width: 768px) {
           .header--hero_contents_buttom {
             font-size: 2.5rem;
@@ -382,6 +426,43 @@ table {
     font-size: 1rem;
     position: relative;
     top: -0.5rem; }
+    .footer--buttom:focus {
+      outline: 0; }
+    .footer--buttom:before {
+      content: '';
+      display: block;
+      position: absolute;
+      background: rgba(255, 255, 255, 0.5);
+      width: 60px;
+      height: 100%;
+      left: 0;
+      top: 0;
+      opacity: .5;
+      filter: blur(30px);
+      transform: translateX(-100px) skewX(-15deg); }
+    .footer--buttom:after {
+      content: '';
+      display: block;
+      position: absolute;
+      background: rgba(255, 255, 255, 0.2);
+      width: 30px;
+      height: 100%;
+      left: 30px;
+      top: 0;
+      opacity: 0;
+      filter: blur(5px);
+      transform: translateX(-100px) skewX(-15deg); }
+    .footer--buttom:hover {
+      background: #edb168;
+      cursor: pointer; }
+      .footer--buttom:hover:before {
+        transform: translateX(300px) skewX(-15deg);
+        opacity: 0.6;
+        transition: .7s; }
+      .footer--buttom:hover:after {
+        transform: translateX(300px) skewX(-15deg);
+        opacity: 1;
+        transition: .7s; }
     @media (min-width: 768px) {
       .footer--buttom {
         top: -2.5rem; } }
