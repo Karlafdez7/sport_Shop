@@ -15,7 +15,23 @@ My first website with **HTML and SASS**.
 ### I leave you some images of the project
 
 
-Fully responsive website.
+<div align="center">
+<p> Fully responsive website:
+</p>
+<img width="25%" height="35%" src="https://github.com/Karlafdez7/sport_Shop/blob/main/src/images/mobil%20.png?raw=true" alt="cover" />
+</br>
+<img width="65%" height="75%" src="https://github.com/Karlafdez7/sport_Shop/blob/main/src/images/tablet.png?raw=true" alt="cover" />
+</br>
+<img width="65%" height="75%" src="https://github.com/Karlafdez7/sport_Shop/blob/main/src/images/desktop.png?raw=true" alt="cover" />
+</div>
+</br>
+
+
+<div align="center">
+<p> Clean code...partials!</p>
+<img width="25%" height="25%" src="https://github.com/Karlafdez7/sport_Shop/blob/main/src/images/HTML_partials.png?raw=true" alt="cover" />
+<img width="25%" height="25%" src="https://github.com/Karlafdez7/sport_Shop/blob/main/src/images/CSS_partials.png?raw=true" alt="cover" />
+</div>
 
 ### To be able to navigate through this repository you can follow these steps:
 
