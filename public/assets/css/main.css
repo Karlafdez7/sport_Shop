@@ -284,10 +284,9 @@ table {
           padding: 1rem; } }
   .header--hero {
     width: 100%;
-    height: 480px; }
+    height: 300px; }
     @media (min-width: 768px) {
       .header--hero {
-        height: 600px;
         margin-bottom: 12rem; } }
     @media (min-width: 1280px) {
       .header--hero {
@@ -315,23 +314,24 @@ table {
       align-items: center;
       text-align: center;
       position: relative;
-      top: -55rem; }
+      top: -44rem; }
       @media (min-width: 768px) {
         .header--hero_contents {
-          top: -45rem; } }
+          top: -38rem; } }
       @media (min-width: 1280px) {
         .header--hero_contents {
-          top: -45rem; } }
+          top: -42rem; } }
       .header--hero_contents_title {
         font-family: "Roboto Slab";
         font-weight: bold;
         font-size: 1.8rem;
         color: #ffffff;
         margin-bottom: 1rem;
-        text-shadow: 0 2px 3px #000000; }
+        text-shadow: 0 2px 3px #000000;
+        width: 90%; }
         @media (min-width: 768px) {
           .header--hero_contents_title {
-            font-size: 4rem;
+            font-size: 3.5rem;
             margin-bottom: 2rem; } }
         @media (min-width: 1280px) {
           .header--hero_contents_title {
@@ -356,7 +356,8 @@ table {
         font-size: 1.6rem;
         background-color: #ffffff;
         text-decoration: none;
-        padding: 0rem 0.6rem 0.5rem 0.6rem;
+        width: 38px;
+        height: 36px;
         border-radius: 50%; }
         .header--hero_contents_buttom:focus {
           outline: 0; }
@@ -397,14 +398,12 @@ table {
             transition: .7s; }
         @media (min-width: 768px) {
           .header--hero_contents_buttom {
-            top: -2.5rem; } }
+            top: -2.5rem;
+            font-size: 1.8rem;
+            font-weight: 700; } }
         @media (min-width: 1280px) {
           .header--hero_contents_buttom {
             top: -4.5rem; } }
-        @media (min-width: 768px) {
-          .header--hero_contents_buttom {
-            font-size: 2.5rem;
-            padding: 0 0.9rem 0.9rem 0.9rem; } }
 
 .footer {
   width: 100%;
@@ -419,13 +418,13 @@ table {
       padding: 4rem; } }
   .footer--buttom {
     background-color: #ffffff;
-    padding: 1rem 0.9rem 0.5rem;
     border-radius: 50%;
     text-decoration: none;
     color: #f26002;
-    font-size: 1rem;
+    font-size: 2rem;
+    padding: 0 0.6rem;
     position: relative;
-    top: -0.5rem; }
+    top: -0.8rem; }
     .footer--buttom:focus {
       outline: 0; }
     .footer--buttom:before {
@@ -465,13 +464,14 @@ table {
         transition: .7s; }
     @media (min-width: 768px) {
       .footer--buttom {
-        top: -2.5rem; } }
+        top: -2.8rem; } }
     @media (min-width: 1280px) {
       .footer--buttom {
-        top: -4.5rem; } }
+        top: -4.8rem; } }
     .footer--buttom_arrow {
       width: 20px;
-      height: 20px; }
+      height: 20px;
+      position: relative; }
   @media (min-width: 768px) {
     .footer--navegator {
       display: flex;
