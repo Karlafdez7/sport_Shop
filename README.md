@@ -12,8 +12,39 @@ My first website with **HTML and SASS**.
 - SASS / SCSS 🔗
 - GULP 🖌️
 
-### I leave you some images of the project
+## Project request:
+The exercise consists of developing a web page according to a provided design. Several points had to be addressed:
 
+Use of Sass.
+Use of flexbox and CSS Grid.
+Use of media queries.
+As an extra: solving some interactions using transitions.
+For the layout: Design created in Zeplin.
+
+**Details:**
+
+1. The hamburger button (in the top left corner) should be fixed at the top of the screen and should not disappear when scrolling. The hamburger icon should be a link to the Adalab page. This hamburger menu does not display any submenus.
+
+2. First module (hero - Up to 50% off): it should be laid out with Flexbox and should occupy the full height of the browser window.
+
+3. Second module (Connect with you): it can be laid out using any CSS properties desired.
+
+4. Third module (New year, new moves): the 3 items in the list should be laid out with CSS Grid in all screen sizes where it is needed.
+
+5. Fourth module (footer): it should be laid out using flexbox. All the texts in the "ZAPATILLAS" column and all the texts in the "TWITTER" column should be links to the Adalab page.
+
+**Interaction:**
+
+There are several user interactions that we need to address:
+
+1. The arrow button in the first module (the hero) should link to the "New Year, New Moves" section.
+
+2. The arrow button located above the footer should link to the top of the page.
+
+3. All footer links should go to https://adalab.es.
+4. BONUS: Create a small animation on the hero and footer buttons (to investigate animation properties).
+
+### I leave you some images of the project
 
 <div align="center">
 <p> Fully responsive website:
@@ -25,7 +56,6 @@ My first website with **HTML and SASS**.
 <img width="65%" height="75%" src="https://github.com/Karlafdez7/sport_Shop/blob/main/src/images/desktop.png?raw=true" alt="cover" />
 </div>
 </br>
-
 
 <div align="center">
 <p> Clean code...partials!</p>
