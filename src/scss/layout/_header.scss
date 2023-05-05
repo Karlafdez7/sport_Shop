@@ -1,81 +1,65 @@
 .header {
-  width: 100vw;
-
+  // width: 100vw;
   &--navegator {
     position: fixed;
     top: 0;
     left: 0;
     z-index: 1;
-
     &_menu {
     background-color: $color-orange;
     padding: 0.8rem;
-
       @media (min-width:768px) {
         padding: 0.9rem;
-          
       }
-
       @media (min-width:1280px) {
         padding: 1rem;
       }
-    
     }
-    
   }
-
   &--hero {
-      width: 100%;
-      height: 300px;
-
-      @media (min-width:768px) {
-        margin-bottom: 12rem;
+    margin-bottom: 1rem;  
+    text-align: center;
+  
+    @media (min-width:768px) {
+        margin-bottom: 1rem;
       }
-
-      @media (min-width:1280px) {
-        margin-bottom: 12rem;
-      }
-
- 
     &_img {
         width: 100%;
-        height: 100vh;
-        background-image: url(../images/cover.jpeg);
-        background-size: 700px 500px;
-        background-position: 50%;
-        background-repeat: no-repeat;
-        position: relative;
-        top: -23rem;
-
+        height: 50vh;
+        object-fit: cover;
+        // background-size: 700px 500px;
         
-  
-        @media (min-width:768px) {
-          background-position:20%;
-          background-size: cover;
-        }
+        // background-position: 50%;
+        // background-repeat: no-repeat;
+        //position: relative;
+          // top: -23rem;
 
-        @media (min-width:1280px) {
-          background-size: 160%;
-          background-position: 40% 10%;
+
+        // @media (min-width:768px) {
+        //   background-position:20%;
+        //   background-size: cover;
+        // }
+
+        // @media (min-width:1280px) {
+        //   background-size: 160%;
+        //   background-position: 40% 10%;
             
-        }
+        // }
       }
       
     &_contents {
+      width: 100%;
       display: flex;
       flex-direction: column;
       align-items: center;
-      text-align: center;
-      position: relative;
-      top: -44rem;
+      position: absolute;
+      transform: translateY(-200px);
 
       @media (min-width:768px) {
-        top: -38rem;
-  
+        transform: translateY(-300px);
       }
-
       @media (min-width:1280px) {
-        top: -42rem;
+        transform: translateY(-300px);
       }
 
       &_title {
@@ -88,7 +72,7 @@
           width: 90%;
       
           @media (min-width:768px) {
-            font-size: 3.5rem;
+            font-size: 3rem;
             margin-bottom: 2rem;
 
           }
@@ -121,60 +105,15 @@
         }
       
         &_buttom {
-          color: $color-orange;
-          font-size: 1.6rem;
           background-color: $color-white;
-          text-decoration: none;
           width: 38px;
           height: 36px;
           border-radius: 50%;
-          &:focus {
-            outline: 0;
-          }
-              
-          &:before {
-            content: '';
-            display: block;
-            position: absolute;
-            width: 60px;
-            background: rgba(255, 255, 255, 0.5);
-            height: 100%;
-            left: 0;
-            top: 0;
-            opacity: .5;
-            filter: blur(30px);
-            transform: translateX(-100px) skewX(-15deg);
-          }
-              
-          &:after {
-            content: '';
-            display: block;
-            position: absolute;
-            background: rgba(255, 255, 255, 0.2);
-            width: 30px;
-            height: 100%;
-            left: 30px;
-            top: 0;
-            opacity: 0;
-            filter: blur(5px);
-            transform: translateX(-100px) skewX(-15deg);
-          }
-              
-          &:hover {
-            background: #edb168;
-            cursor: pointer;
-              
-            &:before {
-              transform: translateX(300px) skewX(-15deg);
-              opacity: 0.6;
-              transition: .7s;
-            }
-              
-            &:after {
-              transform: translateX(300px) skewX(-15deg);
-              opacity: 1;
-              transition: .7s;
-            }
+          padding: 0.5rem;
+
+          &:hover{
+          cursor: pointer;
+          background-color: #edb168;
           }
               
           @media (min-width:768px) {
@@ -186,16 +125,12 @@
           @media (min-width:1280px) {
             top: -4.5rem;
           }
-          // @media (min-width:768px){
-          //   font-size: 2.5rem;
-          //   padding: 0 0.9rem 0.9rem 0.9rem;
 
-          // }
         }
 
     } 
     
-}
+ }
 
 }
 
